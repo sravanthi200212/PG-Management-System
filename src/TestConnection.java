@@ -1,7 +1,6 @@
 import java.sql.Date;
 import java.util.Scanner;
 
-//import com.mysql.cj.protocol.SocksProxySocketFactory;
 
 public class TestConnection {
     public static void main(String[] args) {
@@ -22,7 +21,7 @@ public class TestConnection {
             System.out.print("Enter your choice: ");
             
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:

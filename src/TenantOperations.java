@@ -58,7 +58,7 @@ pstmt.setInt(4, roomNo);
 pstmt.setDouble(5, rent);
 pstmt.setDate(6, joiningDate);
 pstmt.setDate(7, leavingDate);
-pstmt.setString(8, aadhaarNumber);  // ✅ use Java camelCase variable
+pstmt.setString(8, aadhaarNumber);  
 pstmt.setString(9, occupation);
 pstmt.setString(10, paymentStatus);
 pstmt.setString(11, status);

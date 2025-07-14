@@ -6,7 +6,7 @@ public class DBConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/pg_management"; // your DB name
     private static final String USER = "root"; // change if different
-    private static final String PASSWORD = "Sravanthi@2003"; // 🔐 enter your MySQL password
+    private static final String PASSWORD = "Sravanthi@2003";// enter your pass word
 
     public static Connection getConnection() {
         Connection conn = null;
